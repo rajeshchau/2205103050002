@@ -6,7 +6,7 @@ This is a full-stack **URL Shortener** application built using **React.js** and 
 
 ## 📸 Preview
 
-> ![UI Preview](preview-image-url) <!-- Replace with actual screenshot URL -->
+![image](https://github.com/user-attachments/assets/a7d4ad06-e1d0-44ff-9a29-2923e6af6186)
 
 ---
 
@@ -23,11 +23,11 @@ This is a full-stack **URL Shortener** application built using **React.js** and 
 
 ## 🛠 Tech Stack
 
-| Frontend | Backend  | Database |
-|----------|----------|----------|
-| React.js | Node.js  | (Optional: MongoDB / In-memory) |
-| Vite     | Express  | N/A (if no DB used)             |
-| Axios    | Nodemon  |                                  |
+| Frontend |
+|----------|
+| React.js |
+| Vite     |
+| Axios    |
 
 ---
 
@@ -54,61 +54,11 @@ url-shortener/
 
 ## 🧑‍💻 Getting Started
 
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/your-username/url-shortener.git
-cd url-shortener
-```
-
-### 2. Set Up Backend
-
-```bash
-cd server
-npm install
-npm run dev
-```
-
-### 3. Set Up Frontend
-
-```bash
-cd ../client
-npm install
-npm run dev
-```
-
+---
 Now open your browser at [http://localhost:5173](http://localhost:5173)
 
 ---
 
-## 🌐 API Overview
-
-| Method | Route             | Description                    |
-|--------|------------------|--------------------------------|
-| POST   | `/shorten`       | Create a new short URL         |
-| GET    | `/:shortId`      | Redirect to original URL       |
-
-- Default expiry: 30 minutes
-- On expiry: Redirects to fallback or shows error
-
----
-
-## 📌 Environment Variables
-
-Create a `.env` file in your `server/` directory:
-
-```env
-PORT=5000
-BASE_URL=http://localhost:5000
-```
-
-If using a database:
-
-```env
-MONGO_URI=your_mongodb_connection_string
-```
-
----
 
 ## ✨ Future Improvements
 
@@ -119,13 +69,6 @@ MONGO_URI=your_mongodb_connection_string
 
 ---
 
-## 🙋‍♀️ Author
-
-**Gunjana Choudhary**  
-📧 [your-email@example.com]  
-🔗 [LinkedIn](https://linkedin.com/in/your-profile)
-
----
 
 ## 📄 License
 
